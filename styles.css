@@ -95,8 +95,9 @@ main {
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 100%;           /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    height: 200px;         /* Ajusta la altura a 200px para mantener la proporción */
+    object-fit: cover;     /* Recorta la imagen para que se ajuste al espacio sin distorsión */
 }
 
 .card-info {
